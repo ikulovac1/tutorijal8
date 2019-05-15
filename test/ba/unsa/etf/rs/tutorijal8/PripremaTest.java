@@ -39,7 +39,7 @@ class PripremaTest {
         dao.addDriver(new Driver("Test","Testović","1111111111111", LocalDate.now().minusYears(20),LocalDate.now()));
         dao.addDriver(new Driver("Priprema","Pripremović","2222222222222",LocalDate.now().minusYears(23),LocalDate.now().minusYears(1)));
         assertEquals(dao.getDrivers().size(),2);
-    }
+    }+
 
     @Test
     @Order(3)
